@@ -24,7 +24,7 @@ function handleButtonClick()
 // create a function that constucts the table inside the tbody
 function constructTable(data)
 {
-  //clear exiting data
+  //clear any existing data
   tbody.html('');
 
   // loop through the data and construct the table
@@ -48,6 +48,8 @@ function constructTable(data)
 
 var button = d3.select('#filter-btn');
 button.on('click',handleButtonClick);
+
+d3.select('#datetime').on('change', handleButtonClick)
 
 // construct the table on the initial load
 constructTable(UFOsightings);
