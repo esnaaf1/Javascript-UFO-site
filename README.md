@@ -1,2 +1,2 @@
 # javascript-challenge
-Javascript homewotk
+Create an interactive UFO siting website 
