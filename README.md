@@ -1,2 +1,2 @@
 # javascript-challenge
-Create an interactive UFO siting website 
+In this project, using Javascript, I created an interactive website that can display UFO sitings across the United States.
